@@ -50,14 +50,8 @@ This approach allows us to identify:
 ├── code/
 │ ├── simulation/ # simulation studies
 │ └── real_data/ # real-data analysis scripts
-└── data/
-└── stlouis.gpkg # GeoPackage 
-|_
-
-
-> **Note:** If the data are private, do not commit the `data/` folder.
-Add it to `.gitignore` and provide instructions for obtaining the data separately.
-
+├──data/ # Shape Files
+└── Output/ # Results
 ---
 
 ## Required R Packages
